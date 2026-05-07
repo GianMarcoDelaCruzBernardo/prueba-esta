@@ -1,0 +1,395 @@
+/* ══════════════════════════════════════════════════
+   Productos.css — Libreria Yalu 2025
+   Comparte tokens con Index.css
+══════════════════════════════════════════════════ */
+
+/* ─── BASE ──────────────────────────────────────── */
+.ycat { opacity: 0; transition: opacity .4s; }
+.ycat--on { opacity: 1; }
+
+/* ─── HERO HEADER ───────────────────────────────── */
+.ycat__header {
+  position: relative;
+  padding: calc(var(--nav-h) + 56px) clamp(24px, 5vw, 80px) 56px;
+  text-align: center;
+  overflow: hidden;
+  background: var(--paper);
+}
+.ycat__header-bg {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 70% 80% at 50% 0%, rgba(219,234,254,.6) 0%, transparent 65%),
+    radial-gradient(ellipse 40% 50% at 80% 100%, rgba(254,243,199,.4) 0%, transparent 60%);
+  pointer-events: none;
+}
+.ycat__header-grid {
+  position: absolute; inset: 0; pointer-events: none;
+  background-image:
+    linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,.05) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 20%, transparent 100%);
+}
+.ycat__header-inner { position: relative; z-index: 1; max-width: 600px; margin: 0 auto; }
+
+/* ─── SEARCH BAR ────────────────────────────────── */
+.ycat__search-bar {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 20px clamp(24px, 5vw, 80px);
+  background: var(--snow);
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: var(--nav-h); z-index: 90;
+  box-shadow: var(--shadow-sm);
+}
+.ycat__search-wrap {
+  flex: 1; min-width: 240px;
+  position: relative;
+  display: flex; align-items: center;
+}
+.ycat__search-icon {
+  position: absolute; left: 14px;
+  color: var(--blue); font-size: .95rem; pointer-events: none;
+}
+.ycat__search-input {
+  width: 100%; padding: 11px 40px 11px 42px;
+  font-family: var(--ff-body); font-size: .9rem; color: var(--ink);
+  background: var(--paper); border: 1.5px solid var(--border);
+  border-radius: 99px; outline: none;
+  transition: border-color .2s, box-shadow .2s;
+}
+.ycat__search-input:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px rgba(29,78,216,.1);
+  background: var(--snow);
+}
+.ycat__search-input::placeholder { color: var(--ink3); }
+.ycat__search-clear {
+  position: absolute; right: 14px;
+  background: none; border: none; cursor: pointer;
+  color: var(--ink3); font-size: .8rem; padding: 4px;
+  border-radius: 50%;
+  transition: color .2s, background .2s;
+}
+.ycat__search-clear:hover { color: var(--ink); background: var(--paper2); }
+
+.ycat__sort {
+  font-family: var(--ff-body); font-size: .88rem; font-weight: 500;
+  color: var(--ink2); background: var(--paper);
+  border: 1.5px solid var(--border); border-radius: 99px;
+  padding: 10px 20px; cursor: pointer; outline: none;
+  transition: border-color .2s;
+  white-space: nowrap;
+}
+.ycat__sort:focus { border-color: var(--blue); }
+
+.ycat__filter-toggle {
+  display: flex; align-items: center; gap: 7px;
+  font-family: var(--ff-body); font-size: .88rem; font-weight: 600;
+  color: var(--ink2); background: var(--paper);
+  border: 1.5px solid var(--border); border-radius: 99px;
+  padding: 10px 20px; cursor: pointer;
+  position: relative;
+  transition: color .2s, border-color .2s, background .2s;
+}
+.ycat__filter-toggle:hover,
+.ycat__filter-toggle--on {
+  color: var(--blue); border-color: var(--blue);
+  background: var(--blue-l);
+}
+.ycat__filter-dot {
+  position: absolute; top: 8px; right: 8px;
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--blue);
+  box-shadow: 0 0 0 2px var(--snow);
+}
+
+/* ─── LAYOUT ────────────────────────────────────── */
+.ycat__layout {
+  display: flex; align-items: flex-start;
+  gap: 28px;
+  padding: 28px clamp(24px, 5vw, 80px) 64px;
+  min-height: 60vh;
+}
+
+/* ─── SIDEBAR ───────────────────────────────────── */
+.ycat__sidebar {
+  width: 280px; flex-shrink: 0;
+  background: var(--snow); border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px 20px;
+  display: flex; flex-direction: column; gap: 24px;
+  position: sticky; top: calc(var(--nav-h) + 72px);
+  max-height: calc(100vh - var(--nav-h) - 100px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+.ycat__sidebar-head {
+  display: flex; align-items: center; justify-content: space-between;
+  font-size: .88rem; font-weight: 700; color: var(--ink);
+}
+.ycat__limpiar {
+  font-family: var(--ff-body); font-size: .78rem; font-weight: 600;
+  color: var(--blue); background: none; border: none; cursor: pointer;
+  padding: 0; text-decoration: underline; text-underline-offset: 3px;
+}
+.ycat__limpiar--inline { margin-left: 4px; }
+
+.ycat__filter-group { display: flex; flex-direction: column; gap: 10px; }
+.ycat__filter-title {
+  font-size: .75rem; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--ink3); margin: 0;
+}
+
+/* Categoria buttons */
+.ycat__cats { display: flex; flex-direction: column; gap: 4px; }
+.ycat__cat-btn {
+  display: flex; align-items: center; gap: 9px;
+  font-family: var(--ff-body); font-size: .85rem; font-weight: 500;
+  color: var(--ink2); background: transparent;
+  border: 1px solid transparent; border-radius: var(--radius-sm);
+  padding: 8px 12px; cursor: pointer; text-align: left;
+  transition: color .2s, background .2s, border-color .2s;
+}
+.ycat__cat-btn:hover { background: var(--blue-l); color: var(--blue); }
+.ycat__cat-btn--on {
+  background: var(--blue-l); color: var(--blue);
+  border-color: rgba(29,78,216,.25); font-weight: 600;
+}
+.ycat__cat-btn i { font-size: .9rem; width: 16px; text-align: center; }
+
+/* Precio */
+.ycat__precio-row {
+  display: flex; align-items: center; gap: 8px;
+}
+.ycat__precio-field {
+  flex: 1; display: flex; flex-direction: column; gap: 4px;
+}
+.ycat__precio-field label {
+  font-size: .72rem; font-weight: 600; color: var(--ink3);
+}
+.ycat__precio-field input {
+  width: 100%; padding: 8px 10px;
+  font-family: var(--ff-body); font-size: .85rem; color: var(--ink);
+  background: var(--paper); border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm); outline: none;
+  transition: border-color .2s;
+}
+.ycat__precio-field input:focus { border-color: var(--blue); }
+.ycat__precio-sep { color: var(--ink3); font-size: .9rem; margin-top: 18px; }
+
+/* Sidebar CTA */
+.ycat__sidebar-cta {
+  background: var(--blue-l); border: 1px solid rgba(29,78,216,.18);
+  border-radius: var(--radius-md); padding: 18px 16px;
+  display: flex; flex-direction: column; align-items: center;
+  text-align: center; gap: 10px;
+}
+.ycat__sidebar-cta i { font-size: 1.6rem; color: var(--blue); }
+.ycat__sidebar-cta p { font-size: .83rem; color: var(--ink2); line-height: 1.55; margin: 0; }
+.ycat__sidebar-login {
+  font-size: .83rem; padding: 10px 18px; width: 100%;
+  justify-content: center;
+}
+
+/* ─── MAIN GRID ─────────────────────────────────── */
+.ycat__main {
+  flex: 1; min-width: 0;
+  display: flex; flex-direction: column; gap: 20px;
+}
+
+/* Results bar */
+.ycat__results-bar {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 10px;
+}
+.ycat__count {
+  font-size: .88rem; font-weight: 600; color: var(--ink2);
+  display: flex; align-items: center; gap: 4px;
+}
+.ycat__chips { display: flex; flex-wrap: wrap; gap: 7px; }
+.ycat__chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: .78rem; font-weight: 600; color: var(--blue);
+  background: var(--blue-l); border: 1px solid rgba(29,78,216,.2);
+  padding: 4px 12px 4px 14px; border-radius: 99px;
+}
+.ycat__chip button {
+  background: none; border: none; cursor: pointer;
+  color: var(--blue); font-size: .7rem; padding: 0 2px;
+  display: flex; align-items: center;
+}
+
+/* Product grid */
+.ycat__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+/* ─── PRODUCT CARD ──────────────────────────────── */
+.ypc__card {
+  background: var(--snow); border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow .25s;
+  cursor: pointer;
+}
+.ypc__card:hover { box-shadow: var(--shadow-md); }
+
+.ypc__img-wrap {
+  position: relative;
+  aspect-ratio: 4/3;
+  background: var(--paper2);
+  overflow: hidden;
+}
+.ypc__img {
+  width: 100%; height: 100%;
+  object-fit: contain; padding: 16px;
+  transition: transform .35s var(--ease);
+}
+.ypc__card:hover .ypc__img { transform: scale(1.05); }
+.ypc__img-ph {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2.4rem; color: var(--ink3);
+}
+
+.ypc__badge {
+  position: absolute; top: 12px; right: 12px;
+  background: var(--blue); color: #fff;
+  font-size: .7rem; font-weight: 800; letter-spacing: .05em;
+  padding: 3px 10px; border-radius: 99px;
+}
+
+.ypc__body {
+  padding: 16px 18px 18px;
+  display: flex; flex-direction: column; gap: 6px; flex: 1;
+}
+.ypc__cat {
+  font-size: .68rem; font-weight: 700; letter-spacing: .09em;
+  text-transform: uppercase; color: var(--blue);
+}
+.ypc__name {
+  font-family: var(--ff-display); font-size: 1rem; font-weight: 700;
+  color: var(--ink); line-height: 1.3; margin: 0;
+}
+.ypc__desc {
+  font-size: .8rem; color: var(--ink3); line-height: 1.5; margin: 0;
+  display: -webkit-box; -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; overflow: hidden;
+}
+
+.ypc__foot {
+  display: flex; align-items: flex-end; justify-content: space-between;
+  margin-top: auto; padding-top: 8px;
+}
+.ypc__prices { display: flex; align-items: baseline; gap: 7px; }
+.ypc__price {
+  font-family: var(--ff-display); font-size: 1.2rem; font-weight: 800;
+  color: var(--blue);
+}
+.ypc__old {
+  font-size: .8rem; color: var(--ink3);
+  text-decoration: line-through;
+}
+.ypc__in-stock {
+  display: flex; align-items: center; gap: 5px;
+  font-size: .7rem; font-weight: 600; color: var(--green);
+}
+.ypc__in-stock i { font-size: .45rem; }
+.ypc__no-stock { font-size: .7rem; font-weight: 600; color: var(--ink3); }
+
+.ypc__actions {
+  display: flex; gap: 8px; margin-top: 10px;
+}
+.ypc__btn-ver {
+  flex: 1;
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  font-family: var(--ff-body); font-size: .83rem; font-weight: 600;
+  color: var(--blue); background: var(--blue-l);
+  border: 1.5px solid rgba(29,78,216,.25); border-radius: 99px;
+  padding: 9px 14px; cursor: pointer;
+  transition: background .2s, color .2s;
+}
+.ypc__btn-ver:hover { background: var(--blue); color: #fff; }
+.ypc__btn-cart {
+  display: flex; align-items: center; justify-content: center;
+  width: 38px; height: 38px;
+  font-size: 1rem; color: var(--ink2);
+  background: var(--paper); border: 1.5px solid var(--border);
+  border-radius: 99px; cursor: pointer;
+  transition: color .2s, background .2s, border-color .2s;
+  flex-shrink: 0;
+}
+.ypc__btn-cart:hover {
+  color: var(--blue); background: var(--blue-l);
+  border-color: rgba(29,78,216,.25);
+}
+
+/* ─── SKELETON ──────────────────────────────────── */
+.ypc__card--skel { pointer-events: none; }
+.yskel {
+  background: linear-gradient(90deg, var(--paper2) 25%, var(--border) 50%, var(--paper2) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-sm);
+}
+.ypc__img-wrap.yskel { border-radius: 0; height: 160px; }
+.yskel--sm { height: 12px; }
+.yskel--md { height: 18px; }
+@keyframes shimmer { to { background-position: -200% 0; } }
+
+/* ─── EMPTY STATE ───────────────────────────────── */
+.ycat__empty {
+  display: flex; flex-direction: column; align-items: center;
+  justify-content: center; gap: 14px;
+  padding: 80px 24px; text-align: center;
+}
+.ycat__empty i { font-size: 3rem; color: var(--ink3); }
+.ycat__empty h3 {
+  font-family: var(--ff-display); font-size: 1.4rem;
+  font-weight: 700; color: var(--ink); margin: 0;
+}
+.ycat__empty p { font-size: .9rem; color: var(--ink3); margin: 0; }
+
+/* ─── LOGIN BANNER ──────────────────────────────── */
+.ycat__login-banner {
+  display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
+  background: linear-gradient(135deg, var(--blue-d) 0%, var(--blue) 100%);
+  border-radius: var(--radius-lg); padding: 24px 28px;
+  margin-top: 12px;
+}
+.ycat__login-banner-ico {
+  width: 52px; height: 52px; flex-shrink: 0;
+  background: rgba(255,255,255,.15); border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.5rem; color: #fff;
+}
+.ycat__login-banner strong { display: block; font-size: 1rem; color: #fff; font-weight: 700; }
+.ycat__login-banner p { font-size: .88rem; color: rgba(255,255,255,.75); margin: 4px 0 0; }
+.ycat__login-banner .yi-btn--primary {
+  margin-left: auto;
+  background: #fff; color: var(--blue);
+  box-shadow: none;
+}
+.ycat__login-banner .yi-btn--primary:hover { background: var(--blue-l); }
+
+/* ─── RESPONSIVE ────────────────────────────────── */
+@media (max-width: 900px) {
+  .yn__links, .yn__login { display: none; }
+  .yn__burger { display: block; }
+
+  .ycat__layout { flex-direction: column; gap: 0; padding: 20px clamp(16px, 4vw, 32px) 48px; }
+  .ycat__sidebar {
+    width: 100%; position: static;
+    max-height: none; overflow: visible;
+  }
+  .ycat__search-bar { padding: 14px clamp(16px, 4vw, 32px); }
+}
+
+@media (max-width: 600px) {
+  .ycat__grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .ycat__login-banner { flex-direction: column; text-align: center; }
+  .ycat__login-banner .yi-btn--primary { margin-left: 0; width: 100%; justify-content: center; }
+}

@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: yalu-db
+    environment:
+      POSTGRES_DB: yalu_db
+      POSTGRES_USER: yalu_user
+      POSTGRES_PASSWORD: yalu_pass_2026
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - yalu-network
+
+  backend:
+    build:
+      context: ./yalu-backend
+    container_name: yalu-backend
+    environment:
+      - DB_HOST=db
+      - DB_NAME=yalu_db
+      - DB_USER=yalu_user
+      - DB_PASSWORD=yalu_pass_2026
+      - DB_PORT=5432
+      - DJANGO_SECRET_KEY=django-insecure-temp
+      - HCAPTCHA_SECRET=${HCAPTCHA_SECRET}
+    ports:
+      - "8000:8000"
+    command: sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    depends_on:
+      - db
+    networks:
+      - yalu-network
+    volumes:
+      - backend_media:/app/media
+
+  frontend:
+    build:
+      context: ./yalu-frontend
+    container_name: yalu-frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    networks:
+      - yalu-network
+
+networks:
+  yalu-network:
+
+volumes:
+  postgres_data:
+  backend_media:

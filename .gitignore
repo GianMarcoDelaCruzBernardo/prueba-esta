@@ -1,0 +1,33 @@
+﻿# Variables de entorno - NUNCA subir
+.env
+.env.*
+!.env.example
+
+# Node modules
+node_modules/
+*/node_modules/
+
+# Builds
+dist/
+build/
+*/dist/
+*/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,535 @@
+/* ═══════════════════════════════════════════════════
+   TRABAJOS PUBLICO — CSS
+   Consistente con Index.css y Productos.css
+═══════════════════════════════════════════════════ */
+
+/* ─── ENTRY FADE ────────────────────────────────── */
+.ytw { opacity: 0; transition: opacity 0.4s ease; }
+.ytw--on { opacity: 1; }
+
+/* ─── HERO HEADER ───────────────────────────────── */
+.ytw__header {
+  position: relative;
+  min-height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 120px 24px 72px;
+  overflow: hidden;
+}
+
+.ytw__header-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #f0f4ff 0%, #fdf4ff 50%, #fff8f0 100%);
+  z-index: 0;
+}
+
+.ytw__header-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(99,102,241,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99,102,241,.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+  z-index: 0;
+}
+
+.ytw__header-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 640px;
+}
+
+.ytw__hero-cta {
+  margin-top: 28px;
+  font-size: 1.05rem;
+  padding: 14px 32px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+/* ─── TIPOS DE TRABAJO ──────────────────────────── */
+.ytw__tipos {
+  padding: 80px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ytw__tipos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.ytw__tipo-card {
+  background: #fff;
+  border: 1.5px solid #f0f0f0;
+  border-radius: 16px;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  cursor: default;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.ytw__tipo-card:hover {
+  border-color: #6366f1;
+  box-shadow: 0 8px 24px rgba(99,102,241,.12);
+}
+
+.ytw__tipo-ico {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #eef2ff, #faf5ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #6366f1;
+}
+
+.ytw__tipo-card strong {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.ytw__tipo-card span {
+  font-size: 0.78rem;
+  color: #888;
+  line-height: 1.4;
+}
+
+/* ─── GALERÍA ───────────────────────────────────── */
+.ytw__galeria {
+  padding: 20px 24px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ytw__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+/* ─── WORK CARD ─────────────────────────────────── */
+.ytw__card {
+  background: #fff;
+  border: 1.5px solid #f0f0f0;
+  border-radius: 18px;
+  overflow: hidden;
+  cursor: default;
+  transition: border-color 0.2s;
+}
+
+.ytw__card:hover {
+  border-color: #6366f1;
+}
+
+.ytw__card-img {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  background: #f8f9fa;
+}
+
+.ytw__card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.ytw__card:hover .ytw__card-img img {
+  transform: scale(1.04);
+}
+
+.ytw__card-img-ph {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #ccc;
+}
+
+.ytw__card-img--ph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ytw__estado {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.03em;
+}
+
+.ytw__foto-count {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.55);
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ytw__card-body {
+  padding: 16px 18px 18px;
+}
+
+.ytw__card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 6px;
+}
+
+.ytw__card-desc {
+  font-size: 0.82rem;
+  color: #666;
+  line-height: 1.45;
+  margin: 0 0 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ytw__card-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.ytw__price {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #1a1a2e;
+}
+
+.ytw__btn-wa {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: #25D366;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.15s;
+  white-space: nowrap;
+}
+
+.ytw__btn-wa:hover {
+  background: #1ebe5c;
+  transform: scale(1.03);
+}
+
+/* ─── SEARCH BAR ────────────────────────────────── */
+.ytw__search-bar {
+  display: flex;
+  gap: 12px;
+  margin-top: 32px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ytw__search-wrap {
+  flex: 1;
+  min-width: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.ytw__search-icon {
+  position: absolute;
+  left: 14px;
+  color: #999;
+  font-size: 0.95rem;
+  pointer-events: none;
+}
+
+.ytw__search-input {
+  width: 100%;
+  padding: 11px 40px 11px 40px;
+  border: 1.5px solid #e8e8e8;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  background: #fff;
+  color: #1a1a2e;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.ytw__search-input:focus {
+  border-color: #6366f1;
+}
+
+.ytw__search-clear {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.ytw__sort {
+  padding: 11px 16px;
+  border: 1.5px solid #e8e8e8;
+  border-radius: 12px;
+  font-size: 0.88rem;
+  background: #fff;
+  color: #1a1a2e;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s;
+  white-space: nowrap;
+}
+
+.ytw__sort:focus {
+  border-color: #6366f1;
+}
+
+/* ─── SEARCH BAR ────────────────────────────────── */
+.ytw__card--skel .ytw__card-img {
+  aspect-ratio: 4/3;
+}
+
+.yskel {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: yskel-shine 1.5s infinite;
+  border-radius: 8px;
+  height: 16px;
+  display: block;
+}
+
+.yskel--sm { height: 14px; }
+.yskel--md { height: 18px; }
+
+@keyframes yskel-shine {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ─── EMPTY STATE ───────────────────────────────── */
+.ytw__empty {
+  text-align: center;
+  padding: 80px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.ytw__empty i {
+  font-size: 3rem;
+  color: #ccc;
+}
+
+.ytw__empty h3 {
+  font-size: 1.2rem;
+  color: #444;
+  margin: 0;
+}
+
+.ytw__empty p {
+  color: #888;
+  margin: 0;
+}
+
+/* ─── CTA SECTION ───────────────────────────────── */
+.ytw__cta {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 80px 24px;
+}
+
+.ytw__cta-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #1a1a2e 0%, #2d1b69 60%, #1a1a2e 100%);
+  z-index: 0;
+}
+
+.ytw__cta-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  color: #fff;
+}
+
+.ytw__cta-ico {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  border-radius: 20px;
+  background: rgba(255,255,255,.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.ytw__cta-inner h2 {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 800;
+  margin: 0 0 8px;
+  color: #fff;
+}
+
+.ytw__cta-inner p {
+  color: rgba(255,255,255,.7);
+  margin: 0 0 20px;
+  font-size: 0.95rem;
+}
+
+.ytw__cta-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ytw__cta-step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: rgba(255,255,255,.85);
+  font-size: 0.9rem;
+}
+
+.ytw__cta-n {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.ytw__cta-btn {
+  flex-shrink: 0;
+  margin-top: auto;
+  align-self: center;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+  padding: 14px 28px;
+}
+
+/* ─── yi-btn helpers (si no están en global) ────── */
+.yi-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.yi-btn--primary {
+  background: #3b5bfe;
+  color: #fff;
+}
+
+.yi-btn--primary:hover { opacity: 0.88; }
+
+.yi-btn--white {
+  background: #fff;
+  color: #1a1a2e;
+}
+
+.yi-btn--white:hover { opacity: 0.92; }
+
+.yi-btn--outline {
+  background: transparent;
+  color: #3b5bfe;
+  border: 2px solid #3b5bfe;
+}
+
+/* ─── RESPONSIVE ────────────────────────────────── */
+@media (max-width: 768px) {
+  .ytw__tipos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ytw__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ytw__cta-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ytw__cta-steps {
+    align-items: center;
+  }
+
+  .ytw__cta-step {
+    justify-content: center;
+  }
+
+  .ytw__card-foot {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .ytw__tipos-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}

@@ -1,0 +1,2367 @@
+﻿[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-04-29T02:26:48.086Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Xiomara",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-04-29T02:26:49.365Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Gian Bernardo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-04-29T02:28:43.552Z",
+    "user": 1,
+    "content_type": 21,
+    "object_id": "1",
+    "object_repr": "Gigantografia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Foto de trabajo\", \"object\": \"Foto 0 de Gigantografia\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-04-29T03:41:54.462Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "55",
+    "object_repr": "Cuaderno Triple Raya 50 Hojas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Cuaderno Triple Raya 50 Hojas\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-04-29T03:49:15.274Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "44",
+    "object_repr": "Marcadores Permanentes x4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Marcadores Permanentes x4\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-04-29T13:53:23.839Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "60",
+    "object_repr": "Acuarelas Faber x24",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Acuarelas Faber x24\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-04-29T13:54:13.638Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "54",
+    "object_repr": "Agenda 2026 Tapa Dura",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Agenda 2026 Tapa Dura\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-04-29T13:54:39.464Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "84",
+    "object_repr": "Archivador A4 Palanca",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Archivador A4 Palanca\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-04-29T13:55:21.492Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "57",
+    "object_repr": "Block Boceto A4 50 Hojas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Block Boceto A4 50 Hojas\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-04-29T13:55:39.422Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "53",
+    "object_repr": "Block Carta 50 Hojas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Block Carta 50 Hojas\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-04-29T13:56:23.085Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "45",
+    "object_repr": "Boligrafo Stanford Azul x10",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Boligrafo Stanford Azul x10\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-04-29T13:57:24.942Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "82",
+    "object_repr": "Calculadora Basica 12 Digitos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Calculadora Basica 12 Digitos\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-04-29T13:59:12.599Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "83",
+    "object_repr": "Calculadora Casio fx-350",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Calculadora Casio fx-350\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-04-29T14:00:29.458Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "81",
+    "object_repr": "Calculadora Cientifica Casio fx-82",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Calculadora Cientifica Casio fx-82\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-04-29T14:01:38.620Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "73",
+    "object_repr": "Cartulinas de Colores x10",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Cartulinas de Colores x10\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-04-29T14:03:17.782Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "75",
+    "object_repr": "Cinta Masking Tape x3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Cinta Masking Tape x3\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-04-29T14:04:06.999Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "88",
+    "object_repr": "Clips Metalicos x100",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Clips Metalicos x100\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-04-29T14:05:07.102Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "63",
+    "object_repr": "Colores Crayola x24",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Colores Crayola x24\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-04-29T14:06:10.133Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "58",
+    "object_repr": "Colores Faber Castell x36",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Colores Faber Castell x36\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-04-29T14:06:48.382Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "66",
+    "object_repr": "Compas Metalico Profesional",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Compas Metalico Profesional\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-04-29T14:07:23.226Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "52",
+    "object_repr": "Cuaderno Anillado A5 80 Hojas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Cuaderno Anillado A5 80 Hojas\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-04-29T14:08:37.344Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "51",
+    "object_repr": "Cuaderno Espiral A4 100 Hojas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Cuaderno Espiral A4 100 Hojas\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-04-29T14:10:37.228Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "56",
+    "object_repr": "Cuaderno Tapa Dura A4 200 Hojas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Cuaderno Tapa Dura A4 200 Hojas\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-04-29T14:11:00.354Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "68",
+    "object_repr": "Escuadra 45 Maped",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Escuadra 45 Maped\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-04-29T14:12:31.413Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "78",
+    "object_repr": "Estuche 3 Compartimentos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Estuche 3 Compartimentos\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-04-29T14:13:56.775Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "74",
+    "object_repr": "Foamy Colores x10",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Foamy Colores x10\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-04-29T14:15:06.103Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "71",
+    "object_repr": "Goma en Barra 21g",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Goma en Barra 21g\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-04-29T14:16:13.037Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "86",
+    "object_repr": "Grapadora Metalica",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Grapadora Metalica\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-04-29T14:17:49.521Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "65",
+    "object_repr": "Juego Geometrico Completo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Juego Geometrico Completo\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-04-29T14:18:48.560Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "46",
+    "object_repr": "Lapicero Bic Cristal Azul",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Lapicero Bic Cristal Azul\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-04-29T14:19:46.606Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "47",
+    "object_repr": "Lapicero Pentel EnerGel",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Lapicero Pentel EnerGel\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-04-29T14:20:37.859Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "41",
+    "object_repr": "Lapicero Pilot G-2 0.7mm",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Lapicero Pilot G-2 0.7mm\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-04-29T14:21:59.434Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "43",
+    "object_repr": "Lapices de Grafito HB x12",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Lapices de Grafito HB x12\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-04-29T14:22:46.096Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "49",
+    "object_repr": "Lapiz Staedtler 2B",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Lapiz Staedtler 2B\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-04-29T14:23:55.124Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "89",
+    "object_repr": "Ligas Elasticas x100",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Ligas Elasticas x100\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-04-29T14:24:39.770Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "79",
+    "object_repr": "Lonchera Termica",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Lonchera Termica\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-04-29T14:25:21.979Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "50",
+    "object_repr": "Marcador Pizarra Pilot x4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Marcador Pizarra Pilot x4\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-04-29T14:26:18.732Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "77",
+    "object_repr": "Mochila Basica Vinifan",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Mochila Basica Vinifan\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-04-29T14:27:40.366Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "76",
+    "object_repr": "Mochila Escolar Totto",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Mochila Escolar Totto\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-04-29T14:29:04.761Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "80",
+    "object_repr": "Mochila Totto Grande 30L",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Mochila Totto Grande 30L\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-04-29T14:29:58.493Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "64",
+    "object_repr": "Oleo Pelikan x12",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Oleo Pelikan x12\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-04-29T14:30:34.461Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "85",
+    "object_repr": "Perforador 2 Huecos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Perforador 2 Huecos\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-04-29T14:31:18.153Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "61",
+    "object_repr": "Pinceles para Arte x6",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Pinceles para Arte x6\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-04-29T14:32:00.396Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "62",
+    "object_repr": "Plastilina x12 Colores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Plastilina x12 Colores\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-04-29T14:32:45.010Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "87",
+    "object_repr": "Post-it 3x3 Colores x4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Post-it 3x3 Colores x4\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-04-29T14:33:32.880Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "67",
+    "object_repr": "Regla 30cm Transparente",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Regla 30cm Transparente\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-04-29T14:34:05.873Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "48",
+    "object_repr": "Resaltadores Stabilo x4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Resaltadores Stabilo x4\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-04-29T14:34:42.158Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "42",
+    "object_repr": "Set Plumones Faber 12 Colores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Set Plumones Faber 12 Colores\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-04-29T14:35:40.086Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "72",
+    "object_repr": "Silicona Liquida 120ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Silicona Liquida 120ml\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-04-29T14:36:51.782Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "59",
+    "object_repr": "Temperas x12 Colores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Temperas x12 Colores\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-04-29T14:37:37.634Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "70",
+    "object_repr": "Tijeras Escolares Punta Roma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Tijeras Escolares Punta Roma\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-04-29T14:38:19.491Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "69",
+    "object_repr": "Transportador 180 Grados",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo publicacion\"]}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Transportador 180 Grados\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-04-29T14:39:11.527Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "44",
+    "object_repr": "Marcadores Permanentes x4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de Marcadores Permanentes x4\", \"fields\": [\"Imagen\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-04-29T16:33:16.779Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "90",
+    "object_repr": "TECSUP A4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Imagen\", \"object\": \"Imagen 0 de TECSUP A4\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-04-29T16:46:52.036Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "91",
+    "object_repr": "Edison",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-05-01T04:39:52.273Z",
+    "user": 2,
+    "content_type": 12,
+    "object_id": "91",
+    "object_repr": "Edison",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$8ONh7e9h00s7oiYpXExjxZ$b10RoicLFMjxHpUR3X5tOonSdFepQPvtydnO1RVlYT4=",
+    "last_login": "2026-04-29T01:41:30.453Z",
+    "is_superuser": true,
+    "username": "gian",
+    "first_name": "",
+    "last_name": "",
+    "email": "gian.delacruz@tecsup.edu.pe",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-04-25T05:56:33.779Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$ZI4ASJGWYy0ueHwGYktggR$MIZPV03F4WCgs+NY7LSQW8DCJaGkrIW3ymkLvTJ67R0=",
+    "last_login": "2026-05-01T04:39:34.478Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "gian.delacruz@tecsup.edu.pe",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-04-30T15:43:56.164Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "335ke4of4hsrayhj8jsmuldwyeoadwoe",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln24h-U9DmDtV5vcAA5UpxUiLvjSCmgfTPz3iLitpa4NV7ilMVVgDj9bgnpyXUH-YH1Pkua67pMSe6KPGiTw5z5dTvcv4OCrfTasWZCk3xSZLUxzloVwLiR-kdQ3uoRHXujCS8AmRQYCOeegOWQCcXnC-NmOBk:1wITnr:d_HknjPHLMcAPVkL4eCTtkZ5T2PjKgDTc9Tu_3iwR3k",
+    "expire_date": "2026-05-14T15:59:51.086Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4fz6859yzphtc96hp4ftpwiqgpsnnkkh",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln24h-U9DmDtV5vcAA5UpxUiLvjSCmgfTPz3iLitpa4NV7ilMVVgDj9bgnpyXUH-YH1Pkua67pMSe6KPGiTw5z5dTvcv4OCrfTasWZCk3xSZLUxzloVwLiR-kdQ3uoRHXujCS8AmRQYCOeegOWQCcXnC-NmOBk:1wIff4:HVz0tvYywaocA27aEu-6eGR62hFjuPyaJcm2k-J5Ogg",
+    "expire_date": "2026-05-15T04:39:34.484Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gmbwjvvfgiux2jatr0ml4z31b0s5qrzn",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgAxWX7j0Dmc4wUjUlKe3KeHfbpAvd_vfef6uE61LS2vKcRlYXZdXpdxuQnnnaAT9wuldNdVrmcdC7og_a9K1yfl0P9--gYCtb7WzPPoCIA2GxBBApegJG4miB-mC9E0ExBkPMbGBz6NyR68C5gOrzBe5vN_g:1wGW0b:dwZ7_gCwx6-kPrjZm9NJumGf8yJYdXtqu3UZRtE336g",
+    "expire_date": "2026-05-09T05:56:53.848Z"
+  }
+},
+{
+  "model": "usuarios.rol",
+  "pk": 1,
+  "fields": {
+    "nombre": "Xiomara",
+    "descripcion": ""
+  }
+},
+{
+  "model": "usuarios.usuario",
+  "pk": 1,
+  "fields": {
+    "firebase_uid": "0999",
+    "nombres": "Gian",
+    "apellidos": "Bernardo",
+    "email": "loeventanas@gmail.com",
+    "telefono": "900548662",
+    "rol": 1,
+    "estado": true,
+    "created_at": "2026-04-29T02:26:49.361Z"
+  }
+},
+{
+  "model": "catalogo.categoria",
+  "pk": 11,
+  "fields": {
+    "nombre": "lapices",
+    "descripcion": "Lapices, boligrafos, plumas y marcadores",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.categoria",
+  "pk": 12,
+  "fields": {
+    "nombre": "cuadernos",
+    "descripcion": "Libros, cuadernos, blocks y agendas",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.categoria",
+  "pk": 13,
+  "fields": {
+    "nombre": "arte",
+    "descripcion": "Materiales de arte, pintura y dibujo",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.categoria",
+  "pk": 14,
+  "fields": {
+    "nombre": "geometria",
+    "descripcion": "Reglas, escuadras, compases y transportadores",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.categoria",
+  "pk": 15,
+  "fields": {
+    "nombre": "manualidades",
+    "descripcion": "Materiales para manualidades y proyectos",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.categoria",
+  "pk": 16,
+  "fields": {
+    "nombre": "mochilas",
+    "descripcion": "Mochilas, loncheras y estuches",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.categoria",
+  "pk": 17,
+  "fields": {
+    "nombre": "calculadoras",
+    "descripcion": "Calculadoras cientificas y basicas",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.categoria",
+  "pk": 18,
+  "fields": {
+    "nombre": "papeleria",
+    "descripcion": "Papeleria fina y articulos de oficina",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 26,
+  "fields": {
+    "nombre": "Faber Castell",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 27,
+  "fields": {
+    "nombre": "Stanford",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 28,
+  "fields": {
+    "nombre": "Artesco",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 29,
+  "fields": {
+    "nombre": "Pilot",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 30,
+  "fields": {
+    "nombre": "Layconsa",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 31,
+  "fields": {
+    "nombre": "Norma",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 32,
+  "fields": {
+    "nombre": "Vinifan",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 33,
+  "fields": {
+    "nombre": "Totto",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 34,
+  "fields": {
+    "nombre": "Stabilo",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 35,
+  "fields": {
+    "nombre": "Staedtler",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 36,
+  "fields": {
+    "nombre": "Maped",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 37,
+  "fields": {
+    "nombre": "Pelikan",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 38,
+  "fields": {
+    "nombre": "Crayola",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 39,
+  "fields": {
+    "nombre": "Pentel",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 40,
+  "fields": {
+    "nombre": "Bic",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 41,
+  "fields": {
+    "nombre": "Casio",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 42,
+  "fields": {
+    "nombre": "M&G",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 43,
+  "fields": {
+    "nombre": "Deli",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 44,
+  "fields": {
+    "nombre": "Faster",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.marca",
+  "pk": 45,
+  "fields": {
+    "nombre": "Dong-A",
+    "activo": true
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 41,
+  "fields": {
+    "categoria": 11,
+    "marca": 29,
+    "nombre": "Lapicero Pilot G-2 0.7mm",
+    "descripcion": "Lapicero gel retractil punta 0.7mm, tinta suave",
+    "tipo_publicacion": "producto",
+    "precio": "3.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 50,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 42,
+  "fields": {
+    "categoria": 11,
+    "marca": 26,
+    "nombre": "Set Plumones Faber 12 Colores",
+    "descripcion": "Plumones de colores punta fina, lavables",
+    "tipo_publicacion": "producto",
+    "precio": "12.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 30,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 43,
+  "fields": {
+    "categoria": 11,
+    "marca": 26,
+    "nombre": "Lapices de Grafito HB x12",
+    "descripcion": "Caja de 12 lapices hexagonales HB",
+    "tipo_publicacion": "producto",
+    "precio": "8.00",
+    "activo": true,
+    "permite_mayor": true,
+    "stock_minimo": 40,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 44,
+  "fields": {
+    "categoria": 11,
+    "marca": 28,
+    "nombre": "Marcadores Permanentes x4",
+    "descripcion": "Set de 4 marcadores permanentes colores basicos",
+    "tipo_publicacion": "producto",
+    "precio": "9.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 25,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 45,
+  "fields": {
+    "categoria": 11,
+    "marca": 27,
+    "nombre": "Boligrafo Stanford Azul x10",
+    "descripcion": "Pack de 10 boligrafos azul tinta aceite",
+    "tipo_publicacion": "producto",
+    "precio": "5.00",
+    "activo": true,
+    "permite_mayor": true,
+    "stock_minimo": 60,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 46,
+  "fields": {
+    "categoria": 11,
+    "marca": 40,
+    "nombre": "Lapicero Bic Cristal Azul",
+    "descripcion": "Lapicero clasico punta 1.0mm tinta azul",
+    "tipo_publicacion": "producto",
+    "precio": "1.00",
+    "activo": true,
+    "permite_mayor": true,
+    "stock_minimo": 100,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 47,
+  "fields": {
+    "categoria": 11,
+    "marca": 39,
+    "nombre": "Lapicero Pentel EnerGel",
+    "descripcion": "Lapicero gel punta 0.5mm tinta negra",
+    "tipo_publicacion": "producto",
+    "precio": "4.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 40,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 48,
+  "fields": {
+    "categoria": 11,
+    "marca": 34,
+    "nombre": "Resaltadores Stabilo x4",
+    "descripcion": "Set de 4 resaltadores fluorescentes colores surtidos",
+    "tipo_publicacion": "producto",
+    "precio": "8.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 35,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 49,
+  "fields": {
+    "categoria": 11,
+    "marca": 35,
+    "nombre": "Lapiz Staedtler 2B",
+    "descripcion": "Lapiz profesional 2B para dibujo y bocetos",
+    "tipo_publicacion": "producto",
+    "precio": "2.00",
+    "activo": true,
+    "permite_mayor": true,
+    "stock_minimo": 80,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 50,
+  "fields": {
+    "categoria": 11,
+    "marca": 29,
+    "nombre": "Marcador Pizarra Pilot x4",
+    "descripcion": "Set 4 marcadores para pizarra acrilica borrable",
+    "tipo_publicacion": "producto",
+    "precio": "11.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 30,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 51,
+  "fields": {
+    "categoria": 12,
+    "marca": 27,
+    "nombre": "Cuaderno Espiral A4 100 Hojas",
+    "descripcion": "Cuaderno espiral cuadriculado tamano A4",
+    "tipo_publicacion": "producto",
+    "precio": "8.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 50,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 52,
+  "fields": {
+    "categoria": 12,
+    "marca": 31,
+    "nombre": "Cuaderno Anillado A5 80 Hojas",
+    "descripcion": "Cuaderno anillado rayado tamano A5",
+    "tipo_publicacion": "producto",
+    "precio": "6.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 60,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 53,
+  "fields": {
+    "categoria": 12,
+    "marca": 30,
+    "nombre": "Block Carta 50 Hojas",
+    "descripcion": "Block de hojas bond tamano carta",
+    "tipo_publicacion": "producto",
+    "precio": "4.50",
+    "activo": true,
+    "permite_mayor": true,
+    "stock_minimo": 80,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 54,
+  "fields": {
+    "categoria": 12,
+    "marca": 31,
+    "nombre": "Agenda 2026 Tapa Dura",
+    "descripcion": "Agenda anual con calendario y notas",
+    "tipo_publicacion": "producto",
+    "precio": "25.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 20,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 55,
+  "fields": {
+    "categoria": 12,
+    "marca": 27,
+    "nombre": "Cuaderno Triple Raya 50 Hojas",
+    "descripcion": "Cuaderno triple raya para inicial",
+    "tipo_publicacion": "producto",
+    "precio": "5.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 70,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 56,
+  "fields": {
+    "categoria": 12,
+    "marca": 31,
+    "nombre": "Cuaderno Tapa Dura A4 200 Hojas",
+    "descripcion": "Cuaderno tapa dura 200 hojas cuadriculado",
+    "tipo_publicacion": "producto",
+    "precio": "15.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 30,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 57,
+  "fields": {
+    "categoria": 12,
+    "marca": 30,
+    "nombre": "Block Boceto A4 50 Hojas",
+    "descripcion": "Block para bocetos y dibujo artistico",
+    "tipo_publicacion": "producto",
+    "precio": "9.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 25,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 58,
+  "fields": {
+    "categoria": 13,
+    "marca": 26,
+    "nombre": "Colores Faber Castell x36",
+    "descripcion": "Caja de colores profesionales 36 unidades",
+    "tipo_publicacion": "producto",
+    "precio": "32.90",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 25,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 59,
+  "fields": {
+    "categoria": 13,
+    "marca": 28,
+    "nombre": "Temperas x12 Colores",
+    "descripcion": "Set de temperas lavables 12 frascos",
+    "tipo_publicacion": "producto",
+    "precio": "18.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 30,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 60,
+  "fields": {
+    "categoria": 13,
+    "marca": 26,
+    "nombre": "Acuarelas Faber x24",
+    "descripcion": "Set de acuarelas 24 colores con pincel",
+    "tipo_publicacion": "producto",
+    "precio": "28.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 20,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 61,
+  "fields": {
+    "categoria": 13,
+    "marca": 28,
+    "nombre": "Pinceles para Arte x6",
+    "descripcion": "Set de 6 pinceles tamanos variados",
+    "tipo_publicacion": "producto",
+    "precio": "15.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 25,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 62,
+  "fields": {
+    "categoria": 13,
+    "marca": 28,
+    "nombre": "Plastilina x12 Colores",
+    "descripcion": "Set de plastilina no toxica 12 barritas",
+    "tipo_publicacion": "producto",
+    "precio": "10.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 40,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 63,
+  "fields": {
+    "categoria": 13,
+    "marca": 38,
+    "nombre": "Colores Crayola x24",
+    "descripcion": "Crayones de cera 24 colores lavables",
+    "tipo_publicacion": "producto",
+    "precio": "14.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 35,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 64,
+  "fields": {
+    "categoria": 13,
+    "marca": 37,
+    "nombre": "Oleo Pelikan x12",
+    "descripcion": "Set de oleos artisticos 12 colores 12ml",
+    "tipo_publicacion": "producto",
+    "precio": "35.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 15,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 65,
+  "fields": {
+    "categoria": 14,
+    "marca": 28,
+    "nombre": "Juego Geometrico Completo",
+    "descripcion": "Regla 30cm, escuadras y transportador",
+    "tipo_publicacion": "producto",
+    "precio": "7.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 45,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 66,
+  "fields": {
+    "categoria": 14,
+    "marca": 26,
+    "nombre": "Compas Metalico Profesional",
+    "descripcion": "Compas con mina y adaptador para lapiz",
+    "tipo_publicacion": "producto",
+    "precio": "12.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 30,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 67,
+  "fields": {
+    "categoria": 14,
+    "marca": 28,
+    "nombre": "Regla 30cm Transparente",
+    "descripcion": "Regla flexible transparente bordes biselados",
+    "tipo_publicacion": "producto",
+    "precio": "3.50",
+    "activo": true,
+    "permite_mayor": true,
+    "stock_minimo": 80,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 68,
+  "fields": {
+    "categoria": 14,
+    "marca": 36,
+    "nombre": "Escuadra 45 Maped",
+    "descripcion": "Escuadra 45 grados transparente 25cm",
+    "tipo_publicacion": "producto",
+    "precio": "4.00",
+    "activo": true,
+    "permite_mayor": true,
+    "stock_minimo": 60,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 69,
+  "fields": {
+    "categoria": 14,
+    "marca": 28,
+    "nombre": "Transportador 180 Grados",
+    "descripcion": "Transportador semicircular transparente",
+    "tipo_publicacion": "producto",
+    "precio": "2.50",
+    "activo": true,
+    "permite_mayor": true,
+    "stock_minimo": 70,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 70,
+  "fields": {
+    "categoria": 15,
+    "marca": 36,
+    "nombre": "Tijeras Escolares Punta Roma",
+    "descripcion": "Tijeras de seguridad 13cm para ninos",
+    "tipo_publicacion": "producto",
+    "precio": "5.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 50,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 71,
+  "fields": {
+    "categoria": 15,
+    "marca": 27,
+    "nombre": "Goma en Barra 21g",
+    "descripcion": "Pegamento en barra no toxico",
+    "tipo_publicacion": "producto",
+    "precio": "3.00",
+    "activo": true,
+    "permite_mayor": true,
+    "stock_minimo": 100,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 72,
+  "fields": {
+    "categoria": 15,
+    "marca": 28,
+    "nombre": "Silicona Liquida 120ml",
+    "descripcion": "Pegamento liquido transparente multiusos",
+    "tipo_publicacion": "producto",
+    "precio": "6.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 60,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 73,
+  "fields": {
+    "categoria": 15,
+    "marca": 28,
+    "nombre": "Cartulinas de Colores x10",
+    "descripcion": "Pack de 10 cartulinas A4 surtidas",
+    "tipo_publicacion": "producto",
+    "precio": "8.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 45,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 74,
+  "fields": {
+    "categoria": 15,
+    "marca": 28,
+    "nombre": "Foamy Colores x10",
+    "descripcion": "Pack de 10 laminas foamy surtidas A4",
+    "tipo_publicacion": "producto",
+    "precio": "9.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 40,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 75,
+  "fields": {
+    "categoria": 15,
+    "marca": 28,
+    "nombre": "Cinta Masking Tape x3",
+    "descripcion": "Pack 3 cintas masking tape 18mm x 25m",
+    "tipo_publicacion": "producto",
+    "precio": "7.00",
+    "activo": true,
+    "permite_mayor": true,
+    "stock_minimo": 50,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 76,
+  "fields": {
+    "categoria": 16,
+    "marca": 33,
+    "nombre": "Mochila Escolar Totto",
+    "descripcion": "Mochila ergonomica con multiples compartimentos",
+    "tipo_publicacion": "producto",
+    "precio": "89.90",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 15,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 77,
+  "fields": {
+    "categoria": 16,
+    "marca": 32,
+    "nombre": "Mochila Basica Vinifan",
+    "descripcion": "Mochila 2 compartimentos ideal primaria",
+    "tipo_publicacion": "producto",
+    "precio": "45.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 25,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 78,
+  "fields": {
+    "categoria": 16,
+    "marca": 28,
+    "nombre": "Estuche 3 Compartimentos",
+    "descripcion": "Estuche con cierre y separadores",
+    "tipo_publicacion": "producto",
+    "precio": "12.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 35,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 79,
+  "fields": {
+    "categoria": 16,
+    "marca": 32,
+    "nombre": "Lonchera Termica",
+    "descripcion": "Lonchera aislante con correa ajustable",
+    "tipo_publicacion": "producto",
+    "precio": "28.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 20,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 80,
+  "fields": {
+    "categoria": 16,
+    "marca": 33,
+    "nombre": "Mochila Totto Grande 30L",
+    "descripcion": "Mochila grande 30 litros viaje y colegio",
+    "tipo_publicacion": "producto",
+    "precio": "119.90",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 10,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 81,
+  "fields": {
+    "categoria": 17,
+    "marca": 41,
+    "nombre": "Calculadora Cientifica Casio fx-82",
+    "descripcion": "Calculadora cientifica 252 funciones",
+    "tipo_publicacion": "producto",
+    "precio": "65.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 15,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 82,
+  "fields": {
+    "categoria": 17,
+    "marca": 28,
+    "nombre": "Calculadora Basica 12 Digitos",
+    "descripcion": "Calculadora de escritorio solar y bateria",
+    "tipo_publicacion": "producto",
+    "precio": "18.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 30,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 83,
+  "fields": {
+    "categoria": 17,
+    "marca": 41,
+    "nombre": "Calculadora Casio fx-350",
+    "descripcion": "Calculadora cientifica 252 funciones avanzada",
+    "tipo_publicacion": "producto",
+    "precio": "85.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 10,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 84,
+  "fields": {
+    "categoria": 18,
+    "marca": 28,
+    "nombre": "Archivador A4 Palanca",
+    "descripcion": "Archivador de palanca lomo ancho",
+    "tipo_publicacion": "producto",
+    "precio": "8.50",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 40,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 85,
+  "fields": {
+    "categoria": 18,
+    "marca": 28,
+    "nombre": "Perforador 2 Huecos",
+    "descripcion": "Perforador metalico capacidad 25 hojas",
+    "tipo_publicacion": "producto",
+    "precio": "15.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 25,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 86,
+  "fields": {
+    "categoria": 18,
+    "marca": 36,
+    "nombre": "Grapadora Metalica",
+    "descripcion": "Grapadora de escritorio capacidad 20 hojas",
+    "tipo_publicacion": "producto",
+    "precio": "18.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 20,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 87,
+  "fields": {
+    "categoria": 18,
+    "marca": 28,
+    "nombre": "Post-it 3x3 Colores x4",
+    "descripcion": "Pack 4 blocks notas adhesivas surtidas",
+    "tipo_publicacion": "producto",
+    "precio": "12.00",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 35,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 88,
+  "fields": {
+    "categoria": 18,
+    "marca": 44,
+    "nombre": "Clips Metalicos x100",
+    "descripcion": "Caja 100 clips metalicos N.1",
+    "tipo_publicacion": "producto",
+    "precio": "3.50",
+    "activo": true,
+    "permite_mayor": true,
+    "stock_minimo": 100,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 89,
+  "fields": {
+    "categoria": 18,
+    "marca": 28,
+    "nombre": "Ligas Elasticas x100",
+    "descripcion": "Bolsa 100 ligas elasticas tamanos variados",
+    "tipo_publicacion": "producto",
+    "precio": "4.00",
+    "activo": true,
+    "permite_mayor": true,
+    "stock_minimo": 80,
+    "creado_en": "2026-04-25T06:08:48.791Z"
+  }
+},
+{
+  "model": "catalogo.producto",
+  "pk": 90,
+  "fields": {
+    "categoria": 12,
+    "marca": 28,
+    "nombre": "TECSUP A4",
+    "descripcion": "00",
+    "tipo_publicacion": "producto",
+    "precio": "3.99",
+    "activo": true,
+    "permite_mayor": false,
+    "stock_minimo": 0,
+    "creado_en": "2026-04-29T16:33:16.758Z"
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 1,
+  "fields": {
+    "producto": 55,
+    "imagen": "productos/C-college1.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 2,
+  "fields": {
+    "producto": 44,
+    "imagen": "productos/Marcadores_Permanentes_x4.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 3,
+  "fields": {
+    "producto": 60,
+    "imagen": "productos/A-faber24.png",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 4,
+  "fields": {
+    "producto": 54,
+    "imagen": "productos/Agenda25.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 5,
+  "fields": {
+    "producto": 84,
+    "imagen": "productos/archivador.png",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 6,
+  "fields": {
+    "producto": 57,
+    "imagen": "productos/boceto-black.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 7,
+  "fields": {
+    "producto": 53,
+    "imagen": "productos/block_carta.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 8,
+  "fields": {
+    "producto": 45,
+    "imagen": "productos/stanford.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 9,
+  "fields": {
+    "producto": 82,
+    "imagen": "productos/calcualdora__12.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 10,
+  "fields": {
+    "producto": 83,
+    "imagen": "productos/calculadora.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 11,
+  "fields": {
+    "producto": 81,
+    "imagen": "productos/calcualdora-fx82.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 12,
+  "fields": {
+    "producto": 73,
+    "imagen": "productos/cartulinasx10.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 13,
+  "fields": {
+    "producto": 75,
+    "imagen": "productos/typex3.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 14,
+  "fields": {
+    "producto": 88,
+    "imagen": "productos/clipsx100.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 15,
+  "fields": {
+    "producto": 63,
+    "imagen": "productos/crayolas.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 16,
+  "fields": {
+    "producto": 58,
+    "imagen": "productos/x36.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 17,
+  "fields": {
+    "producto": 66,
+    "imagen": "productos/compas.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 18,
+  "fields": {
+    "producto": 52,
+    "imagen": "productos/anillado.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 19,
+  "fields": {
+    "producto": 51,
+    "imagen": "productos/CUADERNO-N-ANILLA.-A4-X-100H.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 20,
+  "fields": {
+    "producto": 56,
+    "imagen": "productos/tapa-dura.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 21,
+  "fields": {
+    "producto": 68,
+    "imagen": "productos/escuadras.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 22,
+  "fields": {
+    "producto": 78,
+    "imagen": "productos/stuche-x3.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 23,
+  "fields": {
+    "producto": 74,
+    "imagen": "productos/foamy.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 24,
+  "fields": {
+    "producto": 71,
+    "imagen": "productos/Goma-en-Barra-21g.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 25,
+  "fields": {
+    "producto": 86,
+    "imagen": "productos/Grapadora-Metalica.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 26,
+  "fields": {
+    "producto": 65,
+    "imagen": "productos/Juego_Geometrico_Completo.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 27,
+  "fields": {
+    "producto": 46,
+    "imagen": "productos/Lapicero_Bic_Cristal_Azul.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 28,
+  "fields": {
+    "producto": 47,
+    "imagen": "productos/Lapicero_Pentel_EnerGel.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 29,
+  "fields": {
+    "producto": 41,
+    "imagen": "productos/Lapicero_Pilot_G-2_0.7mm.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 30,
+  "fields": {
+    "producto": 43,
+    "imagen": "productos/Lapices_de_Grafito_HB_x12.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 31,
+  "fields": {
+    "producto": 49,
+    "imagen": "productos/Lapiz_Staedtler_2B.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 32,
+  "fields": {
+    "producto": 89,
+    "imagen": "productos/Ligas_Elasticas_x100.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 33,
+  "fields": {
+    "producto": 79,
+    "imagen": "productos/Lonchera_Termica.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 34,
+  "fields": {
+    "producto": 50,
+    "imagen": "productos/Marcador_Pizarra_Pilot_x4.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 35,
+  "fields": {
+    "producto": 77,
+    "imagen": "productos/Mochila_Basica_Vinifan.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 36,
+  "fields": {
+    "producto": 76,
+    "imagen": "productos/Mochila_Escolar_Totto.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 37,
+  "fields": {
+    "producto": 80,
+    "imagen": "productos/Mochila_Totto_Grande_30L.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 38,
+  "fields": {
+    "producto": 64,
+    "imagen": "productos/Oleo_Pelikan_x12.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 39,
+  "fields": {
+    "producto": 85,
+    "imagen": "productos/Perforador_2_Huecos.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 40,
+  "fields": {
+    "producto": 61,
+    "imagen": "productos/Pinceles_para_Arte_x6.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 41,
+  "fields": {
+    "producto": 62,
+    "imagen": "productos/Plastilina_x12_Colores.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 42,
+  "fields": {
+    "producto": 87,
+    "imagen": "productos/Post-it_3x3_Colores_x4.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 43,
+  "fields": {
+    "producto": 67,
+    "imagen": "productos/Regla_30cm_Transparente.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 44,
+  "fields": {
+    "producto": 48,
+    "imagen": "productos/Resaltadores_Stabilo_x4.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 45,
+  "fields": {
+    "producto": 42,
+    "imagen": "productos/Set_Plumones_Faber_12_Colores.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 46,
+  "fields": {
+    "producto": 72,
+    "imagen": "productos/Silicona_Liquida_120ml.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 47,
+  "fields": {
+    "producto": 59,
+    "imagen": "productos/Temperas_x12_Colores.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 48,
+  "fields": {
+    "producto": 70,
+    "imagen": "productos/Tijeras_Escolares_Punta_Roma.png",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 49,
+  "fields": {
+    "producto": 69,
+    "imagen": "productos/Transportador_180_Grados.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "catalogo.imagenproducto",
+  "pk": 50,
+  "fields": {
+    "producto": 90,
+    "imagen": "productos/CUADERNO-N-ANILLA_3hnT0h8.-A4-X-100H.jpg",
+    "orden": 0,
+    "es_principal": false
+  }
+},
+{
+  "model": "trabajos.trabajomanual",
+  "pk": 1,
+  "fields": {
+    "usuario": 1,
+    "titulo": "Gigantografia",
+    "descripcion": "fddfdfdfdfdf",
+    "precio_estimado": "20.99",
+    "precio_final": "20.99",
+    "estado": "consulta",
+    "whatsapp_link": "",
+    "created_at": "2026-04-29T02:28:43.546Z"
+  }
+},
+{
+  "model": "trabajos.trabajomanualfoto",
+  "pk": 1,
+  "fields": {
+    "trabajo": 1,
+    "imagen": "trabajos/gigan1.jpg",
+    "orden": 0
+  }
+}
+]
