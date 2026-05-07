@@ -533,3 +533,187 @@
     gap: 10px;
   }
 }
+/* ─── BLOBS ─────────────────────────────────────── */
+.ytw__blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.18;
+  z-index: 0;
+  pointer-events: none;
+}
+.ytw__blob--a {
+  width: 420px; height: 420px;
+  background: #6366f1;
+  top: -80px; left: -80px;
+}
+.ytw__blob--b {
+  width: 300px; height: 300px;
+  background: #a855f7;
+  bottom: -60px; right: -60px;
+}
+
+/* ─── HERO PILL ─────────────────────────────────── */
+.ytw__hero-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(99,102,241,.1);
+  border: 1px solid rgba(99,102,241,.2);
+  color: #6366f1;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 18px;
+}
+.ytw__hero-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #6366f1;
+  animation: ytw-blink 1.4s infinite;
+}
+@keyframes ytw-blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+/* ─── HERO TITLE / SUB ──────────────────────────── */
+.ytw__hero-title {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 900;
+  color: #1a1a2e;
+  line-height: 1.15;
+  margin: 0 0 16px;
+}
+.ytw__hero-title em {
+  font-style: normal;
+  background: linear-gradient(135deg, #6366f1, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.ytw__hero-sub {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0 0 28px;
+}
+
+/* ─── HERO ACTIONS ──────────────────────────────── */
+.ytw__hero-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+.ytw__btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 26px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #6366f1, #a855f7);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.ytw__btn-primary:hover { opacity: 0.88; }
+
+.ytw__btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 22px;
+  border-radius: 12px;
+  background: transparent;
+  color: #6366f1;
+  font-size: 0.92rem;
+  font-weight: 600;
+  border: 2px solid #e0e0f0;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.ytw__btn-ghost:hover { border-color: #6366f1; }
+
+/* ─── HERO TRUST ────────────────────────────────── */
+.ytw__hero-trust {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.ytw__trust-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #555;
+}
+.ytw__trust-item i { color: #6366f1; }
+.ytw__trust-sep {
+  width: 1px; height: 18px;
+  background: #ddd;
+}
+
+/* ─── SECTION HELPERS ───────────────────────────── */
+.ytw__section-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.ytw__section-head {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.ytw__section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #6366f1;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+.ytw__section-title {
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  font-weight: 900;
+  color: #1a1a2e;
+  margin: 0 0 10px;
+}
+.ytw__section-title em {
+  font-style: normal;
+  background: linear-gradient(135deg, #6366f1, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.ytw__section-sub {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0;
+}
+
+/* ─── TIPOS CTA ─────────────────────────────────── */
+.ytw__tipos-cta {
+  text-align: center;
+  margin-top: 36px;
+}
+
+/* ─── CTA SECTION (fix nombre clase) ────────────── */
+.ytw__cta-section {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 80px 24px;
+}
