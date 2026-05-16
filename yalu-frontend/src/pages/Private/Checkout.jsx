@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import api from "../../api/axios";
+import api from "../../services/axios";
 import CheckoutInvitado from "../../components/CheckoutInvitado";
 
 export default function Checkout() {

@@ -1,8 +1,8 @@
-﻿import { useEffect, useState, useRef, useCallback } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   motion, useInView, AnimatePresence,
-  useMotionValue, useSpring, useTransform
+  useMotionValue, useSpring
 } from "framer-motion";
 import Spline from "@splinetool/react-spline";
 import "../../styles/Index.css";
@@ -183,7 +183,6 @@ export default function Index() {
   const [counts,      setCounts]      = useState({ p: 0, y: 0, c: 0 });
   const [activePromo, setActivePromo] = useState(0);
   const [mobileNav,   setMobileNav]   = useState(false);
-  const floatRef = useRef(null);
 
   const [heroRef,  heroVis ] = useReveal("-20px");
   const [statsRef, statsVis] = useReveal();

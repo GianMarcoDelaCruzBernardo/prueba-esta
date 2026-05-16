@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import api from "../../api/axios";
+import api from "../../services/axios";
+import { WHATSAPP_NUMBER } from "../../constants";
 
 export default function Trabajos() {
   const [trabajos, setTrabajos] = useState([]);
@@ -15,7 +16,7 @@ export default function Trabajos() {
     const mensaje = encodeURIComponent(
       `Hola! Me interesa el trabajo: "${trabajo.titulo}". Precio estimado: S/. ${trabajo.precio_estimado}. ¿Podemos coordinar?`
     );
-    window.open(`https://wa.me/51999999999?text=${mensaje}`, "_blank");
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${mensaje}`, "_blank");
   };
 
   return (
