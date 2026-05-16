@@ -1,7 +1,6 @@
 import { useState, useRef } from "react";
 import HCaptcha from "@hcaptcha/react-hcaptcha";
-
-const SITEKEY = "702220f6-72ac-4296-b5c2-cece0b069960";
+import { HCAPTCHA_SITEKEY } from "../constants";
 
 export default function CheckoutInvitado({ onConfirmar, loading, error }) {
   const [form, setForm] = useState({ nombre: "", dni: "", correo: "" });
@@ -49,7 +48,7 @@ export default function CheckoutInvitado({ onConfirmar, loading, error }) {
 
         <div style={{ marginBottom: "16px" }}>
           <HCaptcha
-            sitekey={SITEKEY}
+            sitekey={HCAPTCHA_SITEKEY}
             onVerify={(token) => setCaptchaToken(token)}
             onExpire={() => setCaptchaToken(null)}
             ref={captchaRef}
