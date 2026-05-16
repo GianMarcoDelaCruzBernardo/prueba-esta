@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import api from "../../api/axios";
+import api from "../../services/axios";
 
 const ESTADO_COLOR = {
   pendiente: { bg: "rgba(249,115,22,0.15)", color: "#F97316" },

@@ -1,7 +1,7 @@
-﻿import { useState } from "react";
+import { useState } from "react";
 import { auth, googleProvider } from "../../firebase";
 import { signInWithPopup } from "firebase/auth";
-import api from "../../api/axios";
+import api from "../../services/axios";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import Spline from "@splinetool/react-spline";

@@ -4,7 +4,7 @@ import {
   motion, useInView, AnimatePresence,
   useMotionValue, useSpring
 } from "framer-motion";
-import api from "../../api/axios";
+import api from "../../services/axios";
 import "../../styles/Productos.css";
 
 /* ─── DATA ─────────────────────────────────────────── */
@@ -225,11 +225,9 @@ export default function ProductosPublico() {
     
     api.get("/catalogo/productos/", { params })
       .then(r => {
-        console.log("Productos cargados:", r.data);
         setProductos(r.data);
       })
-      .catch(err => {
-        console.error("Error al cargar productos:", err);
+      .catch(() => {
         setProductos([]);
       })
       .finally(() => setCargando(false));

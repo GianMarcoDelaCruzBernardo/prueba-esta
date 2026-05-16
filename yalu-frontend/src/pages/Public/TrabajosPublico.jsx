@@ -4,7 +4,8 @@ import {
   motion, useInView, AnimatePresence,
   useMotionValue, useSpring
 } from "framer-motion";
-import api from "../../api/axios";
+import api from "../../services/axios";
+import { WHATSAPP_NUMBER } from "../../constants";
 import "../../styles/Trabajos.css";
 
 const NAV_LINKS = [
@@ -30,7 +31,7 @@ const ESTADOS_COLOR = {
   entregado:  { bg: "#E8F5E9", color: "#16A34A", label: "Entregado" },
 };
 
-const WA_NUMBER = "51900548662";
+const WA_NUMBER = WHATSAPP_NUMBER;
 
 const ease = [0.22, 1, 0.36, 1];
 const fadeUp = {
